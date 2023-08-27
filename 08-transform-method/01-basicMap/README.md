@@ -31,28 +31,28 @@ const array = [1, 16, 81, 256, 625, 1296];
 const array = [
   { name: 'apple', age: 14 },
   { name: 'banana', age: 18 },
-  { name: 'watermelon', age: 32 }
+  { name: 'watermelon', age: 32 },
 ];
 // result: ["apple", "banana", "watermelon"]
 
 const array = [
   { name: 'apple', age: 14 },
   { name: 'banana', age: 18 },
-  { name: 'watermelon', age: 32 }
+  { name: 'watermelon', age: 32 },
 ];
 // result: [14, 18, 32]
 
 const array = [
   { name: 'apple', surname: 'London' },
   { name: 'banana', surname: 'Bangkok' },
-  { name: 'watermelon', surname: 'Singapore' }
+  { name: 'watermelon', surname: 'Singapore' },
 ];
 // result: ["apple London", "banana Bangkok", "watermelon Singapore"]
 
 const array = [
   { name: 'apple', birth: '2000-01-01' },
   { name: 'banana', birth: '1990-10-01' },
-  { name: 'watermelon', birth: '1985-12-01' }
+  { name: 'watermelon', birth: '1985-12-01' },
 ];
 // result: [
 //   { name: "apple", birth: "2000-01-01", age: 21 },
@@ -60,15 +60,14 @@ const array = [
 //   { name: "watermelon", birth: "1985-12-01", age: 36 },
 // ]
 
-onst array = [
+const array = [
   { name: 'apple', birth: '2000-01-01' },
   { name: 'banana', birth: '1990-10-10' },
-  { name: 'watermelon', birth: '1985-12-30' }
+  { name: 'watermelon', birth: '1985-12-30' },
 ];
 // result: [
 //     "<tr><td>apple</td><td>01 jan 2000</td></tr>",
 //     "<tr><td>banana</td><td>10 oct 1990</td></tr>",
 //     "<tr><td>watermelon</td><td>30 dec 1985</td></tr>",
 // ]
-
 ```
